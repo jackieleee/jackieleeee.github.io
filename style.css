@@ -69,6 +69,6 @@ li.dropdown{
     text-align: center;
     text-decoration: none;
 }
-font-family: 'Cardo', serif;
-font-family: 'Montserrat', sans-serif;
-
+.currentTab{
+	background-color: #F5E3E7
+}
