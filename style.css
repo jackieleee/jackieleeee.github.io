@@ -1,0 +1,74 @@
+body{
+	margin:50px 100px;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color:#39393A;
+}
+.title{
+	font-family: AbrilFatface-Regular;
+	font-size: 92px;
+	color: #39393A;
+	text-shadow: 0 2px 4px #BF7888;
+}
+.subtitle{
+	font-family: Cardo-Italic;
+	font-size: 52px;
+	color: #39393A;
+	text-align: center;
+}
+.text{
+	font-family: Cardo-Regular;
+	font-size: 20px;
+	color: #39393A;
+	text-align: center;
+	line-height: 46px;
+}
+
+.nav{
+	font-family: Montserrat-Medium;
+	font-size: 20px;
+	color: #39393A;
+	list-style-type: none;
+	overflow: hidden;
+}
+.tab{
+	float: right;
+	display: block;
+	margin:40px 0px;
+	padding: 20px 50px;
+}
+.tab:hover:not(.active){
+	/*text-decoration: underline;*/
+	background-color: #F5E3E7
+}
+li.dropdown{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn{
+	display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+font-family: 'Cardo', serif;
+font-family: 'Montserrat', sans-serif;
+
