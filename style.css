@@ -82,7 +82,7 @@ a:link, a:visited{
   font-family: 'Montserrat', serif;
   font-size: 15px;
   color: #39393A;
-  line-height:26px;
+  line-height:20px;
 }
 
 .subsub{
@@ -363,4 +363,5 @@ li.dropdown{
   margin-right: 13%;
 }
 
-}
+/* Caption */
+.
