@@ -59,33 +59,33 @@ a:link, a:visited{
   color:#39393A;
 }
 .title{
-  font-family: 'Montserrat', serif;
+  font-family: 'montserrat', serif;
   font-size: 60px;
   color: #39393A;
   text-shadow: 0 2px 4px #BF7888;
   text-align: center;
 }
 .subtitle{
-  font-family: 'Cardo', serif;
+  font-family: 'montserrat', serif;
   font-size: 38px;
   color: #39393A;
   text-align: center;
 }
 .text{
-  font-family: 'Cardo', serif;
+  font-family: 'montserrat', serif;
   font-size: 15px;
   color: #39393A;
   line-height: 40px;
 }
 .rtxt{
-  font-family: 'Montserrat', serif;
+  font-family: 'montserrat', serif;
   font-size: 15px;
   color: #39393A;
   line-height:20px;
 }
 
 .subsub{
-  font-family: 'Cardo', serif;
+  font-family: 'montserrat', serif;
   font-size: 20px;
   font-weight: bold;
   color: #39393A;
@@ -95,7 +95,7 @@ a:link, a:visited{
 
  }
 .rectitle{
-  font-family: 'Cardo', serif;
+  font-family: 'montserrat', serif;
   font-size: 30px;
   font-style: italic;
   color: #39393A;
