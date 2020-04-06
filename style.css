@@ -152,7 +152,7 @@ button {
   background-color: #FFFFFF;
   color: #39393A;
   font-size: 16px;
-  padding-top:1%;
+  padding-top:0.5%;
   border: none;
   cursor: pointer;
   transition: all 0.25s ease;
