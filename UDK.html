@@ -1,24 +1,33 @@
 <html lang="en">
 <head>
        <script>
- document.title = "Experience - UDK"
+ document.title = "Experience - Undiscovered Kitchen"
  </script>
   <link rel="shortcut icon" type="image/png" href="favicon.png">
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cardo:400,400i,700|Montserrat:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class= "wrapper">
-    <li style="float: left; zoom:23%; padding-top: -30px"><img src="img/JaxLee.png"/></li>
+        <!--logo-->
+    <li style="position: fixed; float: left; zoom:23%; padding-top: -30px">
+      <img src="img/JaxLee.png"/>
+    </li>    
+    <!--End of logo-->
     <nav>
       <ul>
         <li><a href="index.html">About Me</a></li>
         <li><a href="Experience.html">Experience</a></li>
-        <li><a href="GraphicDesign.html">Graphic Design</a></li>
-        <li><a href="Photography.html">Photography</a></li>
         <li><a href="Achievements.html">Achievements</a></li>
-
+          <div class="dropdown">
+            <button class="dropbtn">Creative</button>
+              <div class="dropdown-content">
+                <li><a href="Photography.html">Photography     </a></li>
+                <li><a href="GraphicDesign.html">Graphic Design</a></li>
+                <li><a href="Writing.html">Writing</a></li>
+            </div>
+          </div>
   </ul>
 </li>
 </ul>
@@ -168,6 +177,33 @@
 </center>
 </center>
 </ul>
+
+<!-- Beginning of TOP Button -->
+<button style="float: right;" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</head>
+
+<script>
+  //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<!-- End of TOP Button -->
 <footer>
 <div style="width: 100%; float: left;">
 	<p style="font-family: 'Montserrat', sans-serif;font-size: 18px; position: relative; padding-top: 100px; left: 0px; bottom: 0">Jacqueline/2020</p>

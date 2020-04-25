@@ -8,16 +8,27 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class= "wrapper">
-    <li style="float: left; zoom:23%; padding-top: -30px"><img src="img/JaxLee.png"/></li>    <nav>
+    <!--logo-->
+    <li style="position: fixed; float: left; zoom:23%; padding-top: -30px">
+      <img src="img/JaxLee.png"/>
+    </li>    
+    <!--End of logo-->
+    <nav>
       <ul>
-    <li><a href="index.html">About Me</a></li>
-	<li><a href="Experience.html">Experience</a></li>
-    <li><a href="GraphicDesign.html">Graphic Design</a></li>
-    <li><a href="Photography.html">Photography</a></li>
-    <li><a href="Achievements.html">Achievements</a></li>
-
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="Experience.html">Experience</a></li>
+        <li><a href="Achievements.html">Achievements</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">Creative</button>
+              <div class="dropdown-content">
+                <li><a href="Photography.html">Photography     </a></li>
+                <li><a href="GraphicDesign.html">Graphic Design</a></li>
+                <li><a href="Writing.html">Writing</a></li>
+            </div>
+          </div>
   </ul>
 </li>
 </ul>
@@ -42,7 +53,7 @@
 		&nbsp;
 		<p> After my internship at GreenChoice, I was presented with the certificate of completion of the I-Corp program. </p>
     &nbsp;
-    <p>  <a href="https://www.greenchoicenow.com/">Greenchoice</a> is a unique tech startup with a mission to empower individuals to make well informed food choices. The GreenChoice app lets you scan and search products to immediately discover what’s in your food and learn how it was produced, all in one place. Get personalized recommendations, create shopping lists, track your impact, and learn how to improve. It makes deciphering nutrition labels more user friendly, helps users avoid harmful ingredients, fight climate change, and create well-balanced meals that harness the power of food as medicine. </p> 
+    <p> <b> <a href="https://www.greenchoicenow.com/">Greenchoice</a> </b>is a unique tech startup with a mission to empower individuals to make well informed food choices. The GreenChoice app lets you scan and search products to immediately discover what’s in your food and learn how it was produced, all in one place. Get personalized recommendations, create shopping lists, track your impact, and learn how to improve. It makes deciphering nutrition labels more user friendly, helps users avoid harmful ingredients, fight climate change, and create well-balanced meals that harness the power of food as medicine. </p> 
 		&nbsp;
   </div>
   <div>
@@ -51,14 +62,48 @@
       <p><a href="GreenChoice.html">>•Find out more about my experience with Greenchoice here.•<</a>
       </p>
     </b>
+    
+<center>
+
+<ul>
+<img src="img/icorp.jpg" style="float: center; width:50%; padding: 3%"/>
+</ul>
+
+</center>
   </div>
 </ul>
 </p></ul>
-    &nbsp;
-    <center>
-		<img src="img/icorp.jpg" style="width:40%; padding-top: 10%px;float: center </div> 
-</center>
-</center>
+
+<!-- Beginning of TOP Button -->
+<button style="float: right;" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</head>
+
+<script>
+  //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+<!-- End of TOP Button -->
+
+<footer>
+<div style="width: 100%; float: left;">
+  <p style="font-family: 'Montserrat', sans-serif;font-size: 18px; position: relative; padding-top: 100px; left: 0px; bottom: 0">Jacqueline/2020</p>
 </div>
 </footer>
 </div>
